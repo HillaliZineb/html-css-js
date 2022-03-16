@@ -1,0 +1,24 @@
+:root{
+    --html:orange;
+    --css:blue;
+    --js:yellow;
+}
+
+#html >h2 > span,
+#html> p:hover,
+#html > h1{
+    color:var(--html);
+} 
+#css >h2 > span,
+#css> p:hover,
+#css > h1{
+    color:var(--css);
+} 
+#js >h2 > span,
+#js> p:hover,
+#js> h1{
+    color:var(--js);
+} 
+p{
+    text-align: justify;
+} 
